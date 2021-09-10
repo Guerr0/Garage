@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane id="paneMain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Garage.ControllerVisualizzaGarage">
+   <children>
+      <TableView fx:id="tableView" layoutX="12.0" layoutY="14.0" prefHeight="345.0" prefWidth="574.0">
+        <columns>
+            <TableColumn fx:id="colonnaPosto" prefWidth="75.0" text="POSTO" />
+          <TableColumn fx:id="colonnaTarga" prefWidth="175.0" text="Targa" />
+          <TableColumn fx:id="colonnaPatente" prefWidth="164.0" text="NumeroPatente" />
+            <TableColumn fx:id="colonnaTipo" prefWidth="158.0" text="Tipo Automobile" />
+        </columns>
+      </TableView>
+      <Button layoutX="493.0" layoutY="365.0" mnemonicParsing="false" onAction="#visualizzaMenu" text="Torna al menù" />
+   </children>
+</Pane>
